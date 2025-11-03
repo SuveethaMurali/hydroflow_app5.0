@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
 
-st.title("Strangers Method Calculation")
+st.title("Strange's Method Calculation")
 
 rain_intensity = st.number_input("Enter Rain Intensity (mm/hr):", min_value=0.0)
 area = st.number_input("Enter Catchment Area (km²):", min_value=0.0)
