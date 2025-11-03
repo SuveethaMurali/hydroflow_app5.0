@@ -15,5 +15,5 @@ if st.button("Proceed to Method Selection ➡️"):
 # Navigation logic
 if st.session_state.page == "method":
     st.experimental_set_query_params(page="method")
-    st.switch_page("1_Method_Selection")
+    st.switch_page("1_Method_Selection.py")
 
