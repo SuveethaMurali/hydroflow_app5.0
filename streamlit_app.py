@@ -10,9 +10,9 @@ st.write("Choose your method to estimate surface runoff using SCN or Strangers M
 
 if st.button("Proceed to Method Selection ➡️"):
     st.session_state.page = "method"
-    st.experimental_rerun()
+    st.rerun()
 
 # Navigation logic
 if st.session_state.page == "method":
     st.experimental_set_query_params(page="method")
-    st.switch_page("pages/1_Method_Selection.py")
+    st.switch_page("1_Method_Selection.py")
