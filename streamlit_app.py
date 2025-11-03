@@ -15,7 +15,8 @@ if st.button("Proceed to Method Selection ➡️"):
 # Navigation logic
 if st.session_state.page == "method":
     st.experimental_set_query_params(page="method")
-    st.switch_page("pages/1_Method_Selection.py")
+    st.switch_page("Method Selection")
+
 
 
 st.sidebar.title("streamlit app")
